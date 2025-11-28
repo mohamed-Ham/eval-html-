@@ -69,7 +69,7 @@ header h1 {
     }
 }
 
-#carte{
+.carte{
     width: 45%;
     margin: 5px ;
     border: 2px solid #8CE4E6;
@@ -77,9 +77,16 @@ header h1 {
     padding: 15px ;
     margin: 20px auto;
     display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
 }
-
+.carte:hover {
+    background: #007bff;
+    transform: scale(1.05);
+    color: white ;
+}
 #infos-importantes {
     background-color: #ffc;
     padding: 15px;
